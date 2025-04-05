@@ -7,6 +7,7 @@ import {
 } from "@react-google-maps/api";
 import { openDB } from "idb";
 import Polylines from "./Polylines";
+import Polygons from "./Polygons";
 
 const DB_NAME = "GeoDataDB";
 const STORE_MARKERS = "markers";
@@ -135,6 +136,7 @@ export default function MapComponent({ geojson }) {
         </InfoWindow>
       )}
       <Polylines />
+      <Polygons />
     </GoogleMap>
   );
 }

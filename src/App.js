@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StaticKMLLoader from "./KMLLoader";
+import StaticKMLLoader from "./components/KMLLoader";
 import MapComponent from "./components/MapComponent";
 
 function App() {

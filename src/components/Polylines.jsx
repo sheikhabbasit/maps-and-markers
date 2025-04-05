@@ -1,5 +1,43 @@
 import { DrawingManager, InfoWindow, Polyline } from "@react-google-maps/api";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
+import { openDB } from "idb";
+
+const DB_NAME = "GeoDataDB";
+const STORE_GEOJSON = "geojson";
+
+const initDB = async () => {
+  return openDB(DB_NAME, 1, {
+    upgrade(db) {
+      if (!db.objectStoreNames.contains(STORE_GEOJSON)) {
+        db.createObjectStore(STORE_GEOJSON);
+      }
+    },
+  });
+};
+
+const saveGeoJSON = async (features) => {
+  const db = await initDB();
+  const geojson = {
+    type: "FeatureCollection",
+    features,
+  };
+  await db.put(STORE_GEOJSON, geojson, "data");
+};
+
+const loadPolylinesFromDB = async () => {
+  const db = await initDB();
+  const data = await db.get(STORE_GEOJSON, "data");
+  if (data?.features?.length) {
+    return data.features
+      .filter((f) => f.geometry.type === "LineString")
+      .map((f) => ({
+        id: Date.now() + Math.random(),
+        path: f.geometry.coordinates.map(([lng, lat]) => ({ lat, lng })),
+        length: 0,
+      }));
+  }
+  return [];
+};
 
 function Polylines() {
   const [polylines, setPolylines] = useState([]);
@@ -7,6 +45,26 @@ function Polylines() {
   const polylineRefs = useRef({});
   const drawingManagerRef = useRef(null);
   const [infoPosition, setInfoPosition] = useState(null);
+
+  useEffect(() => {
+    const load = async () => {
+      const loadedPolylines = await loadPolylinesFromDB();
+      setPolylines(loadedPolylines);
+    };
+    load();
+  }, []);
+
+  const syncToDB = (updatedPolylines) => {
+    const features = updatedPolylines.map((line) => ({
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: line.path.map(({ lat, lng }) => [lng, lat]),
+      },
+      properties: { length: line.length },
+    }));
+    saveGeoJSON(features);
+  };
 
   const handlePolylineEdit = (id) => {
     const polylineObj = polylineRefs.current[id];
@@ -31,11 +89,13 @@ function Polylines() {
       alert("Polyline exceeds 2km!");
     }
 
-    setPolylines((prev) =>
-      prev.map((line) =>
+    setPolylines((prev) => {
+      const updated = prev.map((line) =>
         line.id === id ? { ...line, path: newPath, length } : line
-      )
-    );
+      );
+      syncToDB(updated);
+      return updated;
+    });
   };
 
   return (
@@ -65,7 +125,11 @@ function Polylines() {
             length,
           };
 
-          setPolylines((prev) => [...prev, newPolyline]);
+          setPolylines((prev) => {
+            const updated = [...prev, newPolyline];
+            syncToDB(updated);
+            return updated;
+          });
           polyline.setMap(null); // remove temporary drawing
         }}
         options={{
@@ -85,7 +149,6 @@ function Polylines() {
             if (polylineObj?.getPath) {
               polylineRefs.current[line.id] = polylineObj;
 
-              // Optional: attach edit listener
               window.google.maps.event.addListener(
                 polylineObj.getPath(),
                 "set_at",
