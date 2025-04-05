@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import StaticKMLLoader from "./KMLLoader";
-import MapComponent from "./MapComponent";
+import MapComponent from "./components/MapComponent";
 
 function App() {
   const [geojson, setGeojson] = useState(null);

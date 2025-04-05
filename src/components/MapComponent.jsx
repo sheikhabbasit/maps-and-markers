@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   GoogleMap,
   useLoadScript,
@@ -6,6 +6,7 @@ import {
   InfoWindow,
 } from "@react-google-maps/api";
 import { openDB } from "idb";
+import Polylines from "./Polylines";
 
 const DB_NAME = "GeoDataDB";
 const STORE_MARKERS = "markers";
@@ -28,10 +29,13 @@ const initDB = async () => {
 export default function MapComponent({ geojson }) {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_MAPS_API_KEY,
+    libraries: ["geometry", "drawing"],
   });
 
   const [markers, setMarkers] = useState([]);
   const [selectedMarker, setSelectedMarker] = useState(null);
+
+  const mapRef = useRef();
 
   useEffect(() => {
     const loadFromDB = async () => {
@@ -107,6 +111,7 @@ export default function MapComponent({ geojson }) {
       center={markers[0]?.position || { lat: 20, lng: 78 }}
       zoom={5}
       onClick={onMapClick}
+      onLoad={(map) => (mapRef.current = map)}
     >
       {markers.map((marker, index) => (
         <Marker
@@ -129,6 +134,7 @@ export default function MapComponent({ geojson }) {
           </div>
         </InfoWindow>
       )}
+      <Polylines />
     </GoogleMap>
   );
 }
