@@ -5,12 +5,20 @@ import { kml } from "@tmcw/togeojson";
 
 const DB_NAME = "GeoDataDB";
 const STORE_NAME = "geojson";
+const STORE_GEOJSON = "geojson";
+const STORE_MARKERS = "markers";
 
 const initDB = async () => {
   return openDB(DB_NAME, 1, {
     upgrade(db) {
       if (!db.objectStoreNames.contains(STORE_NAME)) {
         db.createObjectStore(STORE_NAME);
+      }
+      if (!db.objectStoreNames.contains(STORE_GEOJSON)) {
+        db.createObjectStore(STORE_GEOJSON);
+      }
+      if (!db.objectStoreNames.contains(STORE_MARKERS)) {
+        db.createObjectStore(STORE_MARKERS, { keyPath: "id" });
       }
     },
   });
