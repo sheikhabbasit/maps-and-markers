@@ -1,0 +1,2862 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>KML file</name>
+<Style id="1">
+    <LineStyle>
+        <color>ff0101B0</color>
+            <width>2</width>
+    </LineStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle>
+</Style>
+<Style id="2">
+    <LineStyle>
+        <color>ff2D85FF</color>
+            <width>2</width>
+    </LineStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle>
+</Style>
+<Style id="3">
+  <IconStyle>
+   <color>ffFFFFFF</color>
+   	<Icon>
+    	<href>ICONS/OTB/otb_userdriven_final@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="4">
+  <IconStyle>
+   <color>ffFFFFFF</color>
+   	<Icon>
+    	<href>ICONS/OLT/olt_userdriven_final@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="5">
+    <LineStyle>
+        <color>ff0D7F00</color>
+            <width>2</width>
+    </LineStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle>
+</Style>
+<Style id="6">
+  <IconStyle>
+   <color>ffFFFFFF</color>
+   	<Icon>
+    	<href>ICONS/H_T_Pole/htpole_missing_planning@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="7">
+  <IconStyle>
+   <color>ffD5B6EA</color>
+   	<Icon>
+    	<href>ICONS/JointClosureLegends/JointClosureUserdriven@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="8">
+  <IconStyle>
+   <color>ffFFFFFF</color>
+   	<Icon>
+    	<href>ICONS/Manhole/manhole_missing_planning@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="9">
+    <LineStyle>
+        <color>ffFF009E</color>
+            <width>2</width>
+    </LineStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle>
+</Style>
+<Style id="10">
+  <IconStyle>
+   <color>ffFFFFFF</color>
+   	<Icon>
+    	<href>ICONS/FAT/fat_userdriven_final@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="11">
+    <LineStyle>
+        <color>ff004DFF</color>
+            <width>2</width>
+    </LineStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle>
+</Style>
+<Style id="12">
+  <IconStyle>
+   <color>ffFFFFFF</color>
+   	<Icon>
+    	<href>ICONS/ODF/odf_userdriven_final@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="13">
+  <IconStyle>
+   <color>ffFFFFFF</color>
+   	<Icon>
+    	<href>ICONS/Hand_hole/handhole_missing_planning@3x.png</href>
+    </Icon>
+  </IconStyle>
+	<BalloonStyle>
+    <bgColor>ffFFFFFF</bgColor>
+  </BalloonStyle>
+  <LabelStyle>
+    <scale>1</scale>
+  </LabelStyle>
+</Style>
+<Style id="14">
+    <LineStyle>
+        <color>ffD5B6EA</color>
+            <width>2</width>
+    </LineStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle>
+</Style><Folder>
+<name>Final Survey</name>
+<Folder>
+<name>User</name>
+<Folder>
+<name>OTB</name>
+</Folder>
+<Folder>
+<name>OLT</name>
+<Placemark>
+<name>MGZ</name>
+<styleUrl>#4</styleUrl>
+
+<ExtendedData>
+        <Data name="OLT Name">
+            <value>MGZ</value>
+        </Data>
+        <Data name="Linear Connections">
+            <value>1</value>
+        </Data>
+        <Data name="Ring Connections">
+            <value>1</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43342283833691,23.295549503454573</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Joint Closure</name>
+</Folder>
+<Folder>
+<name>Unassign Fiber</name>
+</Folder>
+<Folder>
+<name>Distribution Cable</name>
+</Folder>
+<Folder>
+<name>Primary Fiber</name>
+<Placemark>
+<name>Primary Connection</name>
+<styleUrl>#9</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4346459256,23.2966945679,0
+77.43472,23.29681,0
+77.43454,23.29691,0
+77.43417,23.29629,0
+77.43338,23.29673,0
+77.43311,23.29632,0
+77.43347,23.29614,0
+77.43351,23.29611,0
+77.4336277591,23.2963022043,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Primary Connection</name>
+<styleUrl>#9</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4346459256,23.2966945679,0
+77.43472,23.29681,0
+77.43454,23.29691,0
+77.43461,23.2971,0
+77.43455,23.29711,0
+77.43453,23.29708,0
+77.4345,23.29705,0
+77.43446,23.29707,0
+77.43378,23.29731,0
+77.43365,23.29705,0
+77.4335741149,23.2970860282,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Primary Connection</name>
+<styleUrl>#9</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4334228383,23.2955495035,0
+77.43342,23.29555,0
+77.43358,23.29563,0
+77.43372,23.29575,0
+77.43382,23.29573,0
+77.43396,23.29576,0
+77.43421,23.29575,0
+77.43487,23.29588,0
+77.43504,23.29593,0
+77.43517,23.29604,0
+77.43539,23.29632,0
+77.43573,23.29664,0
+77.43551,23.29691,0
+77.4354,23.29701,0
+77.43525,23.29714,0
+77.43516,23.29712,0
+77.43509,23.29713,0
+77.435,23.29715,0
+77.43468,23.29728,0
+77.43454,23.29691,0
+77.43417,23.29629,0
+77.43338,23.29673,0
+77.43311,23.29632,0
+77.4333,23.29621,0
+77.43351,23.29611,0
+77.4336277591,23.2963022043,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Primary Connection</name>
+<styleUrl>#9</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4335741149,23.2970860282,0
+77.43365,23.29705,0
+77.43378,23.29731,0
+77.43401,23.29724,0
+77.43437,23.29709,0
+77.43448,23.29705,0
+77.43452,23.29706,0
+77.43455,23.29711,0
+77.43461,23.2971,0
+77.43468,23.29728,0
+77.43496,23.29716,0
+77.435,23.29715,0
+77.43509,23.29713,0
+77.43516,23.29712,0
+77.43525,23.29714,0
+77.4354,23.29701,0
+77.43551,23.29691,0
+77.43573,23.29664,0
+77.43539,23.29632,0
+77.43517,23.29604,0
+77.43504,23.29593,0
+77.43487,23.29588,0
+77.43421,23.29575,0
+77.43396,23.29576,0
+77.43382,23.29573,0
+77.43372,23.29575,0
+77.43358,23.29563,0
+77.43342,23.29555,0
+77.4334228383,23.2955495035,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Primary Connection</name>
+<styleUrl>#9</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4334228383,23.2955495035,0
+77.43342,23.29555,0
+77.43358,23.29563,0
+77.43372,23.29575,0
+77.43388,23.29574,0
+77.4339549886,23.2953849374,0
+</coordinates></LineString></Placemark>
+</Folder>
+<Folder>
+<name>Secondary Fiber</name>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4337669462,23.2961036234,0
+77.43371,23.296,0
+77.43392,23.2959,0
+77.43395,23.29592,0
+77.434,23.29599,0
+77.43411,23.29619,0
+77.4339882284,23.2962511276,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4339882284,23.2962511276,0
+77.43406,23.29635,0
+77.43381,23.29649,0
+77.4337364361,23.296370609,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4337364361,23.296370609,0
+77.43381,23.29649,0
+77.43354,23.29664,0
+77.4334591627,23.2965110302,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4346503988,23.29677278,0
+77.43468,23.29683,0
+77.43454,23.29691,0
+77.43433,23.29656,0
+77.4341555312,23.2966465243,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4352257326,23.296543672,0
+77.43505,23.29664,0
+77.43472,23.29681,0
+77.4346459256,23.2966945679,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4348928034,23.2966354384,0
+77.43493,23.2967,0
+77.43472,23.29681,0
+77.4346459256,23.2966945679,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4346503988,23.29677278,0
+77.43468,23.29683,0
+77.43472,23.29681,0
+77.4346459256,23.2966945679,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.434303388,23.2968719369,0
+77.43447,23.29679,0
+77.43454,23.29691,0
+77.43472,23.29681,0
+77.4346459256,23.2966945679,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4332978949,23.2963407386,0
+77.43324,23.29625,0
+77.43351,23.29611,0
+77.4336277591,23.2963022043,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4335171655,23.2962335749,0
+77.43346,23.29614,0
+77.43351,23.29611,0
+77.4336277591,23.2963022043,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4337669462,23.2961036234,0
+77.43371,23.296,0
+77.43392,23.2959,0
+77.43395,23.29592,0
+77.434,23.29599,0
+77.43417,23.29629,0
+77.43338,23.29673,0
+77.43311,23.29632,0
+77.4333,23.29621,0
+77.43351,23.29611,0
+77.4336277591,23.2963022043,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4339064211,23.2970893426,0
+77.43396,23.29725,0
+77.43378,23.29731,0
+77.43365,23.29705,0
+77.4335741149,23.2970860282,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4331999943,23.2972765699,0
+77.43328,23.29742,0
+77.43352,23.2973,0
+77.43378,23.29731,0
+77.43365,23.29705,0
+77.4335741149,23.2970860282,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.433453463,23.2971035078,0
+77.43363,23.29702,0
+77.43365,23.29705,0
+77.4335741149,23.2970860282,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4337364361,23.2968707051,0
+77.43359,23.29694,0
+77.43365,23.29705,0
+77.4335741149,23.2970860282,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4340924993,23.2954440096,0
+77.43409,23.29575,0
+77.43388,23.29574,0
+77.4339549886,23.2953849374,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4338148907,23.2953276069,0
+77.43344,23.29536,0
+77.43346,23.29556,0
+77.43358,23.29563,0
+77.43372,23.29575,0
+77.43388,23.29574,0
+77.4339549886,23.2953849374,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4310253933,23.2924501474,0
+77.43103,23.29248,0
+77.43133,23.29231,0
+77.4313076483,23.292280847,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4311299995,23.2922010151,0
+77.43114,23.2922,0
+77.43123,23.29237,0
+77.43133,23.29231,0
+77.4313076483,23.292280847,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4314679578,23.2923266592,0
+77.43146,23.29233,0
+77.43142,23.29226,0
+77.43133,23.29231,0
+77.4313076483,23.292280847,0
+</coordinates></LineString></Placemark>
+<Placemark>
+<name>Secondary Connection</name>
+<styleUrl>#11</styleUrl>
+
+<ExtendedData>
+        <Data name="Fiber Cable type">
+            <value>N/A</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4316131324,23.2921468157,0
+77.43156,23.29213,0
+77.43142,23.29226,0
+77.43133,23.29231,0
+77.4313076483,23.292280847,0
+</coordinates></LineString></Placemark>
+</Folder>
+<Folder>
+<name>ODF</name>
+<Placemark>
+<name>MGZ02</name>
+<styleUrl>#12</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent OLT">
+            <value>MGZ</value>
+        </Data>
+        <Data name="ODF Name">
+            <value>MGZ02</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Primary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected ODF's">
+            <value>0</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>4</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.4346459256477,23.296694567905465</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ01</name>
+<styleUrl>#12</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent OLT">
+            <value>MGZ</value>
+        </Data>
+        <Data name="ODF Name">
+            <value>MGZ01</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Primary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected ODF's">
+            <value>1</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>3</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43362775910565,23.296302204312067</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ03</name>
+<styleUrl>#12</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent OLT">
+            <value>MGZ</value>
+        </Data>
+        <Data name="ODF Name">
+            <value>MGZ03</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Primary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected ODF's">
+            <value>1</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>4</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43357411492535,23.29708602819214</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ04</name>
+<styleUrl>#12</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent OLT">
+            <value>MGZ</value>
+        </Data>
+        <Data name="ODF Name">
+            <value>MGZ04</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Primary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected ODF's">
+            <value>0</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>2</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43395498860546,23.295384937393216</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>EQZ01</name>
+<styleUrl>#12</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent OLT">
+            <value>N/A</value>
+        </Data>
+        <Data name="ODF Name">
+            <value>EQZ01</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Primary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected ODF's">
+            <value>0</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>4</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43130764830777,23.29228084701429</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Pole</name>
+<Placemark>
+<name>Pole_1</name>
+<styleUrl>#6</styleUrl>
+
+<ExtendedData>
+        <Data name="poleType">
+            <value>Pole to be installed</value>
+        </Data>
+        <Data name="Pole Id">
+            <value>1</value>
+        </Data>
+        <Data name="Pole Name">
+            <value>Pole_1</value>
+        </Data>
+        <Data name="Pole latitude">
+            <value>23.29245014741185</value>
+        </Data>
+        <Data name="Pole longitude">
+            <value>77.43102539330721</value>
+        </Data>
+        <Data name="Pole number">
+            <value>-</value>
+        </Data>
+        <Data name="Selected Pole">
+            <value>Own Pole</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43102539330721,23.29245014741185</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Pole_2</name>
+<styleUrl>#6</styleUrl>
+
+<ExtendedData>
+        <Data name="poleType">
+            <value>-</value>
+        </Data>
+        <Data name="Pole Id">
+            <value>2</value>
+        </Data>
+        <Data name="Pole Name">
+            <value>Pole_2</value>
+        </Data>
+        <Data name="Pole latitude">
+            <value>23.292207174152683</value>
+        </Data>
+        <Data name="Pole longitude">
+            <value>77.43113670498133</value>
+        </Data>
+        <Data name="Pole number">
+            <value>-</value>
+        </Data>
+        <Data name="Selected Pole">
+            <value>-</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43113670498133,23.292207174152683</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Pole_3</name>
+<styleUrl>#6</styleUrl>
+
+<ExtendedData>
+        <Data name="poleType">
+            <value>-</value>
+        </Data>
+        <Data name="Pole Id">
+            <value>3</value>
+        </Data>
+        <Data name="Pole Name">
+            <value>Pole_3</value>
+        </Data>
+        <Data name="Pole latitude">
+            <value>23.29231865243313</value>
+        </Data>
+        <Data name="Pole longitude">
+            <value>77.43146661669016</value>
+        </Data>
+        <Data name="Pole number">
+            <value>2</value>
+        </Data>
+        <Data name="Selected Pole">
+            <value>Electric Pole</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43146661669016,23.29231865243313</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Pole_4</name>
+<styleUrl>#6</styleUrl>
+
+<ExtendedData>
+        <Data name="poleType">
+            <value>-</value>
+        </Data>
+        <Data name="Pole Id">
+            <value>4</value>
+        </Data>
+        <Data name="Pole Name">
+            <value>Pole_4</value>
+        </Data>
+        <Data name="Pole latitude">
+            <value>23.29215143497745</value>
+        </Data>
+        <Data name="Pole longitude">
+            <value>77.43160709738731</value>
+        </Data>
+        <Data name="Pole number">
+            <value>3</value>
+        </Data>
+        <Data name="Selected Pole">
+            <value>Electric Pole</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43160709738731,23.29215143497745</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Manhole</name>
+<Placemark>
+<name>MH_2</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>2</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_2</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.29664436872991</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43495918810368</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43495918810368,23.29664436872991</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_3</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>3</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_3</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.296699798082503</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43461720645428</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43461720645428,23.296699798082503</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_4</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>4</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_4</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.296232651093742</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43402846157551</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43402846157551,23.296232651093742</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_5</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>5</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_5</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.296359831023093</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43377465754747</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43377465754747,23.296359831023093</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_6</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>6</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_6</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.29655444995325</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43348095566034</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43348095566034,23.29655444995325</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_7</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>7</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_7</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.29635921513995</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43334282189608</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43334282189608,23.29635921513995</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_8</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>8</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_8</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.296253591138893</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43347492069006</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43347492069006,23.296253591138893</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_9</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>9</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_9</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.296040187289105</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43386518210173</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43386518210173,23.296040187289105</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_10</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>10</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_10</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.29680449790774</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43433725088835</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43433725088835,23.29680449790774</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_12</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>12</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_12</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.297130914481148</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.4339272081852</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.4339272081852,23.297130914481148</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_13</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>13</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_13</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.29735817384904</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43321843445301</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43321843445301,23.29735817384904</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_14</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>14</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_14</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.297163556094443</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43349336087704</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43349336087704,23.297163556094443</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_16</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>16</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_16</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.29684021900573</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43384975939989</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43384975939989,23.29684021900573</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_17</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>17</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_17</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.29670564895726</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43419274687767</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43419274687767,23.29670564895726</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_18</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>18</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_18</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.295407980224596</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43405126035213</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43405126035213,23.295407980224596</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MH_19</name>
+<styleUrl>#8</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>600409</value>
+        </Data>
+        <Data name="manhole ID">
+            <value>19</value>
+        </Data>
+        <Data name="manhole Name">
+            <value>MH_19</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Manhole latitude">
+            <value>23.295342696128657</value>
+        </Data>
+        <Data name="Manhole longitude">
+            <value>77.43386551737785</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43386551737785,23.295342696128657</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Handhole</name>
+<Placemark>
+<name>HH_1</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>1</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_1</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.296448518165807</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43517376482487</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43517376482487,23.296448518165807</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_2</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>2</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_2</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.2950969566502</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43233129382133</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43233129382133,23.2950969566502</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_3</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>3</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_3</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.29574363851401</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43565656244755</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43565656244755,23.29574363851401</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_4</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>4</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_4</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.295239842818205</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.4357021600008</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.4357021600008,23.295239842818205</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_5</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>5</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_5</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.293616351291437</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43602838367224</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43602838367224,23.293616351291437</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_6</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>6</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_6</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.294112762411274</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43581347167492</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43581347167492,23.294112762411274</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_7</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>7</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_7</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.293212630957044</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43520628660917</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43520628660917,23.293212630957044</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_8</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>8</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_8</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.2936588480975</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.4350443482399</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.4350443482399,23.2936588480975</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_9</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>9</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_9</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.293801119914665</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43469800800085</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43469800800085,23.293801119914665</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_10</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>10</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_10</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.294363738792537</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43394128978252</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43394128978252,23.294363738792537</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_11</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>11</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_11</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.294687081898875</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43462558835745</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43462558835745,23.294687081898875</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_13</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>13</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_13</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.29451401644824</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43450623005629</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43450623005629,23.29451401644824</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_14</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>14</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_14</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.294225162935025</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43425007909536</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43425007909536,23.294225162935025</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_15</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>15</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_15</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.294449963697712</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43477914482355</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43477914482355,23.294449963697712</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_16</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>16</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_16</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.2947729986493</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43507351726294</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43507351726294,23.2947729986493</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_17</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>17</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_17</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.29423101391859</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43505574762821</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43505574762821,23.29423101391859</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_18</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>18</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_18</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.293926762431937</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43519119918346</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43519119918346,23.293926762431937</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_19</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>19</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_19</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.294462281536745</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43525322526693</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43525322526693,23.294462281536745</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>HH_20</name>
+<styleUrl>#13</styleUrl>
+
+<ExtendedData>
+        <Data name="order ID">
+            <value>-</value>
+        </Data>
+        <Data name="Handhole ID">
+            <value>20</value>
+        </Data>
+        <Data name="Handhole Name">
+            <value>HH_20</value>
+        </Data>
+        <Data name="remarks">
+            <value>Not present</value>
+        </Data>
+        <Data name="Handhole latitude">
+            <value>23.293449443414577</value>
+        </Data>
+        <Data name="Handhole longitude">
+            <value>77.43574239313602</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43574239313602,23.293449443414577</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Fat</name>
+<Placemark>
+<name>MGZ020101</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ02</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ020101</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43522573262453,23.29654367201362</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ020102</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ02</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ020102</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43489280343056,23.296635438443168</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ020103</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ02</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ020103</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>1</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43465039879084,23.29677278002821</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ010104</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ010104</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>2</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43398822844028,23.29625112760435</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ010105</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ010105</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>2</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43373643606901,23.29637060897762</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ010106</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ010106</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>1</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.4334591627121,23.296511030248254</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ010101</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ010101</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43329789489508,23.296340738644354</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ010102</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ010102</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43351716548204,23.296233574919334</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ010103</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ010103</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>1</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43376694619656,23.296103623389875</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ020105</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ02</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ020105</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43430338799953,23.296871936869195</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ030101</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ03</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ030101</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>72</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43390642106533,23.297089342603552</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ030102</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ03</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ030102</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>72</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43319999426603,23.29727656992014</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ030103</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ03</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ030103</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>72</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43345346301794,23.29710350783738</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ030104</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ03</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ030104</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>72</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43373643606901,23.296870705107654</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ020104</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ02</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ020104</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>1</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>72</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43415553122759,23.296646524316266</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ040101</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ04</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ040101</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Underground</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>72</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43409249931574,23.29544400964118</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MGZ040102</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>MGZ04</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>MGZ040102</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Overhead</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.4338148906827,23.295327606875517</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>EQZ010101</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>EQZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>EQZ010101</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Overhead</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>48</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43102539330721,23.29245014741185</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>EQZ010102</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>EQZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>EQZ010102</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Overhead</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>4</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43112999945879,23.292201015128946</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>EQZ010103</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>EQZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>EQZ010103</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Overhead</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>8</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.43146795779467,23.292326659156853</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>EQZ010104</name>
+<styleUrl>#10</styleUrl>
+
+<ExtendedData>
+        <Data name="Parent ODF">
+            <value>EQZ01</value>
+        </Data>
+        <Data name="FAT Box Name">
+            <value>EQZ010104</value>
+        </Data>
+        <Data name="Capacity of Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Secondary Splitter">
+            <value>N/A</value>
+        </Data>
+        <Data name="Connected FAT Boxes">
+            <value>0</value>
+        </Data>
+        <Data name="Connected OTB's">
+            <value>0</value>
+        </Data>
+        <Data name="FAT Box Type">
+            <value>8F</value>
+        </Data>
+        <Data name="Cable Type">
+            <value>Overhead</value>
+        </Data>
+        <Data name="Cable Lane">
+            <value>Front</value>
+        </Data>
+        <Data name="Homepass Count">
+            <value>7</value>
+        </Data>
+</ExtendedData>
+<Point><coordinates>77.4316131323576,23.29214681570774</coordinates></Point>
+</Placemark>
+</Folder>
+</Folder>
+</Folder>
+<Folder>
+<name>Polygon</name>
+<Folder>
+<name>Main</name>
+<Placemark>
+<name>Main Polygon</name>
+<styleUrl>#1</styleUrl>
+
+<ExtendedData>
+        <Data name="description">
+            <value>Main Polygon</value>
+        </Data>
+        <Data name="type">
+            <value>Polygon</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.43069333572662,23.295016567109098,0
+77.43081135292327,23.295213651557685,0
+77.43102592964446,23.2954501525107,0
+77.43121904869354,23.295735923934792,0
+77.43149799843108,23.296090673814323,0
+77.43175549049651,23.29641586037309,0
+77.43192715187347,23.296721337931633,0
+77.43219537277496,23.29706623110647,0
+77.43245286484039,23.297440685541215,0
+77.43260306854522,23.297795430875745,0
+77.43287128944671,23.29813046726768,0
+77.43300003547942,23.298199445243654,0
+77.43330044288909,23.298051635251365,0
+77.43363303680694,23.2978939710786,0
+77.43392271538055,23.297756014774166,0
+77.43421239395416,23.29758849621221,0
+77.43451280136382,23.297450539591058,0
+77.43490976829803,23.297243604391127,0
+77.43527454872405,23.29711550148703,0
+77.43548912544524,23.296908565766035,0
+77.43569297333038,23.29660308863733,0
+77.43598265190398,23.296287756672086,0
+77.43614358444488,23.296021694745157,0
+77.43628305931365,23.295676798862914,0
+77.43635816116607,23.295282631045733,0
+77.43641180534637,23.29490817053795,0
+77.43633133907592,23.294730794140154,0
+77.43640644092834,23.294474583370402,0
+77.43640107651031,23.29421837210734,0
+77.43639034767425,23.29395723319702,0
+77.43636889000213,23.293705948101415,0
+77.43633670349395,23.29347437122061,0
+77.43633133907592,23.29321815803188,0
+77.43631524582183,23.293040779381503,0
+77.43617577095306,23.293021070627983,0
+77.43585390587127,23.293021070627983,0
+77.43565542240417,23.29302599781663,0
+77.43527991314208,23.293124541551432,0
+77.43497414131438,23.29321815803188,0
+77.43472201366698,23.293306847268425,0
+77.4344376995114,23.293395536445857,0
+77.43428749580657,23.293449735358518,0
+77.43401927490508,23.29351378859048,0
+77.43367058773315,23.293592623295204,0
+77.4334828331021,23.29377492837099,0
+77.43370277424133,23.294050849091715,0
+77.43376714725768,23.294154319214517,0
+77.43383152027404,23.29430706067731,0
+77.43388516445434,23.29462239733622,0
+77.43399245281493,23.294770211137877,0
+77.43420702953613,23.29490324341897,0
+77.43439478416717,23.294967295951338,0
+77.43456644554412,23.29514467203389,0
+77.4346522762326,23.295213651557685,0
+77.4348507596997,23.295065838248597,0
+77.43504387874877,23.295287558150648,0
+77.43514043827331,23.29549449639259,0
+77.43524236221587,23.29561767376476,0
+77.4354623033551,23.29592315315573,0
+77.43562323589599,23.296001986433108,0
+77.43577880401885,23.29579504898039,0
+77.4358592702893,23.295627527949623,0
+77.43591827888763,23.295484642197888,0
+77.43613285560882,23.29540580861403,0
+77.43628305931365,23.29538610021077,0
+77.43620795746124,23.295706361402136,0
+77.43611676235473,23.29593300731796,0
+77.43599874515807,23.296169506992456,0
+77.43590755005157,23.296297610807297,0
+77.43574125309264,23.29647005805562,0
+77.43537110824859,23.29621385063463,0
+77.43522090454375,23.296090673814323,0
+77.43512434501922,23.29592315315573,0
+77.4346898271588,23.295785194807948,0
+77.43451816578185,23.295469860904472,0
+77.43422312279021,23.295292485255395,0
+77.4340309502708,23.295189885385735,0
+77.43368226309886,23.2950568533912,0
+77.43355351706614,23.29482527886122,0
+77.43349450846782,23.294647902352946,0
+77.43343013545146,23.29432763861417,0
+77.43324774523845,23.294165042882586,0
+77.4330760838615,23.29399259264714,0
+77.43294675179827,23.293925705385124,0
+77.43271608182299,23.293910923918546,0
+77.43252564498293,23.293901069606576,0
+77.43246931859362,23.29392077822978,0
+77.43229497500765,23.29393802327268,0
+77.43211258479464,23.293950341159103,0
+77.43202675410616,23.29390353318463,0
+77.43196774550783,23.29378528138631,0
+77.43191946574557,23.29370644679573,0
+77.43180413075793,23.2936818109766,0
+77.43160622447205,23.293412846512318,0
+77.4314882072754,23.293146778837322,0
+77.43139164775086,23.292969400091806,0
+77.4313809189148,23.292831438681848,0
+77.43161695330811,23.292703331530248,0
+77.43159549563599,23.29246682569564,0
+77.43187444537354,23.292151483929036,0
+77.43176715701294,23.29199381276555,0
+77.43171351283264,23.291924831572775,0
+77.43150966494751,23.291974103856976,0
+77.4312736305542,23.29203323057393,0
+77.43111269801331,23.292043085024204,0
+77.43096249430847,23.29206279392255,0
+77.43083374827576,23.29210221171051,0
+77.4309303078003,23.292368281473834,0
+77.43108051150513,23.29259493307488,0
+77.43120925753784,23.292782166715043,0
+77.43129508822632,23.292969400091806,0
+77.43145940242066,23.29322073781533,0
+77.43123946128144,23.293462169482662,0
+77.43114826617493,23.293504050441605,0
+77.43102488456024,23.293570567231644,0
+77.43094173608078,23.293646938319966,0
+77.43076339893138,23.29389128918475,0
+77.43085459403788,23.294053885250815,0
+77.43105844192301,23.294428348162526,0
+77.43110135726725,23.29459094357239,0
+77.4310745351771,23.29480773714319,0
+77.4310369842509,23.29497033208952,0
+77.4307848566035,23.29501960324615,0
+77.43069333572662,23.295016567109098,0
+</coordinates></LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>Sub</name>
+<Placemark>
+<name>Sub Polygon</name>
+<styleUrl>#2</styleUrl>
+
+<ExtendedData>
+        <Data name="description">
+            <value>Sub Polygon</value>
+        </Data>
+        <Data name="type">
+            <value>Polygon</value>
+        </Data>
+</ExtendedData>
+<LineString><coordinates>
+77.4331400951641,23.296312005944493,0
+77.43317764609031,23.296474599052758,0
+77.433301027705,23.296666754288196,0
+77.43338685839348,23.29684905515248,0
+77.43309181540184,23.29696237718548,0
+77.43264656870537,23.296794857624327,0
+77.43252855150871,23.296725878920196,0
+77.43230324595146,23.296400693119086,0
+77.4321315845745,23.296499234354858,0
+77.43198138086967,23.296405620182604,0
+77.43181508391075,23.296154339710373,0
+77.43169170229606,23.295898131681493,0
+77.43160050718956,23.295774954568916,0
+77.43148785441093,23.295622214790992,0
+77.43142348139457,23.295499037423017,0
+77.43133228628807,23.2953315160196,0
+77.43123572676353,23.295139358855984,0
+77.43118744700126,23.295011253926077,0
+77.43114989607506,23.294858513271553,0
+77.4311230739849,23.294745189446836,0
+77.431139167239,23.294602302747695,0
+77.43110161631279,23.29447419730078,0
+77.43105870096855,23.294360873148786,0
+77.43099432795219,23.294213058892453,0
+77.43090313284569,23.294075098771764,0
+77.43086021750145,23.293912502731615,0
+77.43101578562431,23.293671071881263,0
+77.4311767181652,23.2935331111987,0
+77.43132692187004,23.293542965537902,0
+77.43146103232078,23.293636581724027,0
+77.43161123602562,23.29374497933094,0
+77.43172388880424,23.293823813898705,0
+77.43180971949272,23.293715416356005,0
+77.43191164343528,23.29374497933094,0
+77.4319491943615,23.293823813898705,0
+77.43199210970573,23.293897721263562,0
+77.43206721155815,23.293981482894118,0
+77.43226033060722,23.293991337200136,0
+77.43245881407432,23.29396670143374,0
+77.43267875521354,23.29397162858738,0
+77.43282359450035,23.294025827265433,0
+77.4329952558773,23.294124370259855,0
+77.43316155283622,23.294217986036983,0
+77.43327957003288,23.294336237450793,0
+77.43338685839348,23.29447419730078,0
+77.43342440931968,23.29461215700773,0
+77.43347805349998,23.294759970820756,0
+77.43354779093437,23.29491271158838,0
+77.43353169768028,23.2950999419676,0
+77.43349414675407,23.295272390768044,0
+77.4334619602459,23.295346297328386,0
+77.43348341791801,23.29552860000175,0
+77.43359607069664,23.29567641279678,0
+77.4337516388195,23.295804517086335,0
+77.43362289278679,23.295942475414098,0
+77.43339758722954,23.29607550652326,0
+77.43320446818046,23.296183902143497,0
+77.4331400951641,23.296312005944493,0
+</coordinates></LineString>
+</Placemark>
+</Folder>
+</Folder>
+</Document>
+</kml>
