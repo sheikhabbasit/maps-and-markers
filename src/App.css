@@ -28,6 +28,34 @@
   color: #61dafb;
 }
 
+.download-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.w-80 {
+  width: 79%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +63,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+.sidebar {
+  width: 20%;
+  background-color: #f5f5f5;
+  padding: 16px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.sidebar-item {
+  margin-bottom: 16px;
+}
+
+.sidebar-item-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.sidebar-item-header:after {
+  content: " ►";
+  float: right;
+}
+
+.sidebar-item-header.expanded:after {
+  content: " ▼";
+}
+
+.sidebar-item-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item-list li {
+  padding: 8px;
+}
+
+.sidebar-item-list li:hover {
+  background-color: #ddd;
+}
+
+.sidebar-item-list li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.ml-2 {
+  margin-left: 16px;
+}
+
+.ml-4 {
+  margin-left: 32px;
+}
+
+.list {
+  max-height: 300px;
+  overflow-y: auto;
 }
