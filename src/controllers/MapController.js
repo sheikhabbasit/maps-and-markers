@@ -5,8 +5,10 @@ import { useEffect, useRef, useState } from "react";
 const DB_NAME = "GeoDataDB";
 const STORE_MARKERS = "markers";
 
+// Initialize the IndexedDB with the required object stores
 const initDB = async () => {
   return openDB(DB_NAME, 1, {
+    // When the database is created or updated, create the object store
     upgrade(db) {
       if (!db.objectStoreNames.contains(STORE_MARKERS)) {
         db.createObjectStore(STORE_MARKERS, { keyPath: "id" });
@@ -15,17 +17,24 @@ const initDB = async () => {
   });
 };
 
+// Main hook to manage the map and its markers
 export const useMapController = ({ geojson }) => {
+  // Load the Google Maps JavaScript API
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_MAPS_API_KEY,
     libraries: ["geometry", "drawing"],
   });
 
+  // State variables:
+  // - markers: the list of markers on the map
+  // - selectedMarker: the currently selected marker
   const [markers, setMarkers] = useState([]);
   const [selectedMarker, setSelectedMarker] = useState(null);
 
+  // Reference to the map component
   const mapRef = useRef();
 
+  // When the component mounts, load the markers from the database or the geojson
   useEffect(() => {
     const loadFromDB = async () => {
       const db = await initDB();
@@ -33,6 +42,7 @@ export const useMapController = ({ geojson }) => {
       if (allMarkers.length > 0) {
         setMarkers(allMarkers);
       } else if (geojson) {
+        // Extract the markers from the geojson
         const extracted = geojson.features
           .filter((f) => f.geometry.type === "Point")
           .map((f, idx) => ({
@@ -55,11 +65,13 @@ export const useMapController = ({ geojson }) => {
     loadFromDB();
   }, [geojson]);
 
+  // Add a new marker to the database when the user clicks on the map
   const addMarkerToIndexedDB = async (marker) => {
     const db = await initDB();
     await db.put(STORE_MARKERS, marker);
   };
 
+  // Handle the click event on the map
   const onMapClick = async (e) => {
     const lat = e.latLng.lat();
     const lng = e.latLng.lng();
@@ -79,6 +91,7 @@ export const useMapController = ({ geojson }) => {
     }
   };
 
+  // Handle the drag end event on a marker
   const onMarkerDragEnd = async (index, e) => {
     const updatedMarkers = [...markers];
     updatedMarkers[index].position = {

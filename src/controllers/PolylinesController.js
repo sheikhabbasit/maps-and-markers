@@ -4,6 +4,9 @@ import { useEffect, useRef, useState } from "react";
 const DB_NAME = "GeoDataDB";
 const STORE_GEOJSON = "geojson";
 
+/**
+ * Initialize the IndexedDB and create the object store for the GeoJSON data
+ */
 const initDB = async () => {
   return openDB(DB_NAME, 1, {
     upgrade(db) {
@@ -14,6 +17,10 @@ const initDB = async () => {
   });
 };
 
+/**
+ * Save the GeoJSON data to IndexedDB
+ * @param {Array} features The GeoJSON features to be saved
+ */
 const saveGeoJSON = async (features) => {
   const db = await initDB();
   const geojson = {
@@ -23,6 +30,10 @@ const saveGeoJSON = async (features) => {
   await db.put(STORE_GEOJSON, geojson, "data");
 };
 
+/**
+ * Load the polylines from IndexedDB
+ * @returns {Array} An array of polylines with their paths and lengths
+ */
 const loadPolylinesFromDB = async () => {
   const db = await initDB();
   const data = await db.get(STORE_GEOJSON, "data");
@@ -38,6 +49,9 @@ const loadPolylinesFromDB = async () => {
   return [];
 };
 
+/**
+ * Hook to manage the state of the polylines and their edits
+ */
 export const usePolylinesController = () => {
   const [polylines, setPolylines] = useState([]);
   const [activePolyline, setActivePolyline] = useState(null);
@@ -45,6 +59,9 @@ export const usePolylinesController = () => {
   const drawingManagerRef = useRef(null);
   const [infoPosition, setInfoPosition] = useState(null);
 
+  /**
+   * Load the polylines from IndexedDB when the component mounts
+   */
   useEffect(() => {
     const load = async () => {
       const loadedPolylines = await loadPolylinesFromDB();
@@ -53,6 +70,10 @@ export const usePolylinesController = () => {
     load();
   }, []);
 
+  /**
+   * Save the updated polylines to IndexedDB
+   * @param {Array} updatedPolylines The updated polylines with their paths and lengths
+   */
   const syncToDB = (updatedPolylines) => {
     const features = updatedPolylines.map((line) => ({
       type: "Feature",
@@ -65,6 +86,10 @@ export const usePolylinesController = () => {
     saveGeoJSON(features);
   };
 
+  /**
+   * Handle edits to a polyline
+   * @param {string} id The ID of the polyline to be edited
+   */
   const handlePolylineEdit = (id) => {
     const polylineObj = polylineRefs.current[id];
     if (!polylineObj || typeof polylineObj.getPath !== "function") {
